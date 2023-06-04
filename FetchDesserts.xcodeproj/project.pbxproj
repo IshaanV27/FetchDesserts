@@ -37,6 +37,7 @@
 		B9AAEB3D2A2D281000D810D6 = {
 			isa = PBXGroup;
 			children = (
+				B9AAEB5D2A2D304200D810D6 /* README.md */,
 				B9AAEB482A2D281000D810D6 /* FetchDesserts */,
 				B9AAEB472A2D281000D810D6 /* Products */,
 			);
@@ -60,7 +61,6 @@
 				B9AAEB4D2A2D281400D810D6 /* Assets.xcassets */,
 				B9AAEB522A2D281400D810D6 /* Info.plist */,
 				B9AAEB4F2A2D281400D810D6 /* Preview Content */,
-				B9AAEB5D2A2D304200D810D6 /* README.md */,
 			);
 			path = FetchDesserts;
 			sourceTree = "<group>";
