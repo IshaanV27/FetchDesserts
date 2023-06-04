@@ -20,6 +20,7 @@
 		B9AAEB4D2A2D281400D810D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9AAEB502A2D281400D810D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B9AAEB522A2D281400D810D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9AAEB5D2A2D304200D810D6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +60,7 @@
 				B9AAEB4D2A2D281400D810D6 /* Assets.xcassets */,
 				B9AAEB522A2D281400D810D6 /* Info.plist */,
 				B9AAEB4F2A2D281400D810D6 /* Preview Content */,
+				B9AAEB5D2A2D304200D810D6 /* README.md */,
 			);
 			path = FetchDesserts;
 			sourceTree = "<group>";
