@@ -52,8 +52,10 @@
 		B9AAEB482A2D281000D810D6 /* FetchDesserts */ = {
 			isa = PBXGroup;
 			children = (
+				B9AAEB5A2A2D298700D810D6 /* Models */,
+				B9AAEB592A2D296E00D810D6 /* ViewModels */,
+				B9AAEB582A2D295200D810D6 /* Views */,
 				B9AAEB492A2D281100D810D6 /* FetchDessertsApp.swift */,
-				B9AAEB4B2A2D281100D810D6 /* ContentView.swift */,
 				B9AAEB4D2A2D281400D810D6 /* Assets.xcassets */,
 				B9AAEB522A2D281400D810D6 /* Info.plist */,
 				B9AAEB4F2A2D281400D810D6 /* Preview Content */,
@@ -67,6 +69,44 @@
 				B9AAEB502A2D281400D810D6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B9AAEB582A2D295200D810D6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B9AAEB5C2A2D29C800D810D6 /* Main */,
+				B9AAEB5B2A2D299D00D810D6 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B9AAEB592A2D296E00D810D6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B9AAEB5A2A2D298700D810D6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B9AAEB5B2A2D299D00D810D6 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B9AAEB5C2A2D29C800D810D6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B9AAEB4B2A2D281100D810D6 /* ContentView.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
