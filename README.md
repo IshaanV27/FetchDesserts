@@ -13,6 +13,8 @@ Built using Swift and recipes provided by TheMealDB API
 * Filters out any nil or null values received from TheMealDB API prior to being displayed
 * Follows MVVM design pattern
 
+## Installation
+
 ## Requirements
 
 Requires iOS 14.0 or later
