@@ -8,9 +8,10 @@ Built using Swift and recipes provided by TheMealDB API
 
 ## Features
 
-* Scroll through a variety of dessert recipes listed in alphateical order
-* Select individual recipes showcasing a detailed view that includes meal name, instructucions, and ingredients
-* Filters out any null or empty values received from TheMealDB API prior to being displayed
+* Scroll through a number of dessert recipes listed in alphateical order
+* Select individual recipes showcasing a detailed view that includes meal name, instructions, ingredients, and measurements
+* Filters out any nil or null values received from TheMealDB API prior to being displayed
+* Follows MVVM design pattern
 
 ## Requirements
 

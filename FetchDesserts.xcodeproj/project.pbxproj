@@ -13,8 +13,9 @@
 		B9AAEB512A2D281400D810D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9AAEB502A2D281400D810D6 /* Preview Assets.xcassets */; };
 		B9AAEB5F2A2D399E00D810D6 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AAEB5E2A2D399E00D810D6 /* TabBar.swift */; };
 		B9AAEB612A2D3ADF00D810D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AAEB602A2D3ADF00D810D6 /* ContentView.swift */; };
-		B9AAEB632A2D3D1400D810D6 /* DessertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AAEB622A2D3D1400D810D6 /* DessertModel.swift */; };
-		B9AAEB652A2D51FE00D810D6 /* DessertDescriptionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AAEB642A2D51FE00D810D6 /* DessertDescriptionModel.swift */; };
+		B9AAEB632A2D3D1400D810D6 /* DessertData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AAEB622A2D3D1400D810D6 /* DessertData.swift */; };
+		B9AAEB652A2D51FE00D810D6 /* DessertDescriptionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AAEB642A2D51FE00D810D6 /* DessertDescriptionData.swift */; };
+		B9AAEB6B2A2EB7CB00D810D6 /* DessertListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AAEB6A2A2EB7CB00D810D6 /* DessertListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +28,9 @@
 		B9AAEB5D2A2D304200D810D6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B9AAEB5E2A2D399E00D810D6 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		B9AAEB602A2D3ADF00D810D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B9AAEB622A2D3D1400D810D6 /* DessertModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertModel.swift; sourceTree = "<group>"; };
-		B9AAEB642A2D51FE00D810D6 /* DessertDescriptionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertDescriptionModel.swift; sourceTree = "<group>"; };
+		B9AAEB622A2D3D1400D810D6 /* DessertData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertData.swift; sourceTree = "<group>"; };
+		B9AAEB642A2D51FE00D810D6 /* DessertDescriptionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertDescriptionData.swift; sourceTree = "<group>"; };
+		B9AAEB6A2A2EB7CB00D810D6 /* DessertListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +102,8 @@
 		B9AAEB5A2A2D298700D810D6 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				B9AAEB622A2D3D1400D810D6 /* DessertModel.swift */,
-				B9AAEB642A2D51FE00D810D6 /* DessertDescriptionModel.swift */,
+				B9AAEB622A2D3D1400D810D6 /* DessertData.swift */,
+				B9AAEB642A2D51FE00D810D6 /* DessertDescriptionData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -119,6 +121,7 @@
 				B9AAEB4B2A2D281100D810D6 /* HomeView.swift */,
 				B9AAEB5E2A2D399E00D810D6 /* TabBar.swift */,
 				B9AAEB602A2D3ADF00D810D6 /* ContentView.swift */,
+				B9AAEB6A2A2EB7CB00D810D6 /* DessertListView.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -192,10 +195,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9AAEB6B2A2EB7CB00D810D6 /* DessertListView.swift in Sources */,
 				B9AAEB5F2A2D399E00D810D6 /* TabBar.swift in Sources */,
-				B9AAEB652A2D51FE00D810D6 /* DessertDescriptionModel.swift in Sources */,
+				B9AAEB652A2D51FE00D810D6 /* DessertDescriptionData.swift in Sources */,
 				B9AAEB4C2A2D281100D810D6 /* HomeView.swift in Sources */,
-				B9AAEB632A2D3D1400D810D6 /* DessertModel.swift in Sources */,
+				B9AAEB632A2D3D1400D810D6 /* DessertData.swift in Sources */,
 				B9AAEB612A2D3ADF00D810D6 /* ContentView.swift in Sources */,
 				B9AAEB4A2A2D281100D810D6 /* FetchDessertsApp.swift in Sources */,
 			);
